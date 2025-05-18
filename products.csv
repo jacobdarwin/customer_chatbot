@@ -1,0 +1,9 @@
+product_id,product_name,category,price,availability,description
+PROD001,Wireless Mouse,Electronics,799,In Stock,Ergonomic wireless mouse with high precision tracking.
+PROD002,USB-C Charger,Accessories,599,In Stock,Fast-charging USB-C power adapter suitable for various devices.
+PROD003,Noise Cancelling Headphones,Electronics,2999,Limited Stock,Over-ear headphones with superior noise cancellation.
+PROD004,Bluetooth Speaker,Electronics,1499,Out of Stock,Portable Bluetooth speaker with deep bass and stereo sound.
+PROD005,Smartwatch,Wearable Tech,3999,In Stock,Advanced smartwatch with heart rate monitoring and GPS.
+PROD006,Keyboard,Electronics,999,In Stock,Mechanical keyboard with customizable RGB lighting.
+PROD007,Phone Case,Accessories,299,In Stock,Shockproof phone case with slim and stylish design.
+PROD008,Laptop Stand,Accessories,1299,In Stock,Adjustable laptop stand for ergonomic workspace setup.

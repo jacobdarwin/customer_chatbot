@@ -1,0 +1,206 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "What's up?",
+        "Howdy",
+        "Hi there",
+        "Hey bot"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your order today?"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Order status",
+        "Track my order",
+        "Has my order shipped?",
+        "When will my order arrive?",
+        "Order delivery time?",
+        "Order tracking info",
+        "My package status"
+      ],
+      "responses": [
+        "Please provide your order ID so I can check the status."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "I want a refund",
+        "How do I get a refund?",
+        "Request refund",
+        "Can I return and get money back?",
+        "I need a refund",
+        "Refund my payment",
+        "Money back please",
+        "Return and refund"
+      ],
+      "responses": [
+        "You can request a refund by visiting your order history and clicking 'Request Refund'."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "Cancel my order",
+        "I want to cancel",
+        "How to cancel order?",
+        "Can I cancel it?",
+        "Cancel placed order",
+        "Stop my order",
+        "Abort the purchase",
+        "Cancel purchase"
+      ],
+      "responses": [
+        "To cancel your order, go to 'My Orders' and click 'Cancel'. If it's already shipped, it can't be cancelled."
+      ]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "Payment failed",
+        "Why was I charged twice?",
+        "Card not working",
+        "Problem with payment",
+        "Charged incorrectly",
+        "I have a payment issue",
+        "Payment not processed",
+        "Bank error"
+      ],
+      "responses": [
+        "Sorry to hear that. Please contact [jacobdarwin070@gmail.com](mailto:jacobdarwin070@gmail.com) for payment-related issues."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What's your return policy?",
+        "How do I return an item?",
+        "Return instructions",
+        "Can I return a product?",
+        "Item return window",
+        "Product return procedure",
+        "Is return available?",
+        "Return my product"
+      ],
+      "responses": [
+        "We accept returns within 30 days. Visit your order history and click 'Return Item'."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "How long does shipping take?",
+        "Expected delivery time",
+        "How much is shipping?",
+        "Shipping charges",
+        "Do you offer free shipping?",
+        "Delivery options",
+        "Where do you ship to?"
+      ],
+      "responses": [
+        "Shipping times depend on your location and shipping method. Standard shipping takes 5-7 days, express takes 2-3 days."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "Tell me about a product",
+        "Product details",
+        "Show product specifications",
+        "What are the features?",
+        "Give me product info",
+        "Describe this product",
+        "Is this product available?",
+        "What colors does this product come in?"
+      ],
+      "responses": [
+        "Please provide the product name or ID so I can fetch details."
+      ]
+    },
+    {
+      "tag": "discounts_offers",
+      "patterns": [
+        "Are there any discounts?",
+        "Current promotions",
+        "Do you have any coupons?",
+        "How can I get a discount?",
+        "Sale prices",
+        "Special deals",
+        "Price reductions"
+      ],
+      "responses": [
+        "You can check the 'Deals' section on our website to see all available discounts."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "I have an issue with my account",
+        "Login problem",
+        "Trouble signing in",
+        "How do I reset my password?",
+        "Account locked",
+        "How do I update my profile?",
+        "Can't access my orders",
+        "Website not working"
+      ],
+      "responses": [
+        "Please visit our Help Center or contact [support@example.com](mailto:support@example.com) for assistance."
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "Tell me about yourself",
+        "Are you a bot?",
+        "Who created you?"
+      ],
+      "responses": [
+        "I am ShopMate, your e-commerce assistant! I help with orders, returns, payments, and more."
+      ]
+    },
+    {
+      "tag": "general_info",
+      "patterns": [
+        "Who is the president of India?",
+        "What is AI?",
+        "Tell me about the weather",
+        "Who won the World Cup?",
+        "What is the capital of France?",
+        "Give me news updates",
+        "How does machine learning work?"
+      ],
+      "responses": [
+        "I'm focused on e-commerce assistance. For general knowledge, check reliable sources like news websites!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Thank you",
+        "Thanks",
+        "See you",
+        "Goodbye",
+        "Bye bye",
+        "Talk later",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome! Have a great day!"
+      ]
+    }
+  ]
+}

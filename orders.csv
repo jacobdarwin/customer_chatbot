@@ -1,0 +1,9 @@
+order_id,product_name,status,expected_delivery_date,amount
+ORD123,Wireless Mouse,Shipped,2025-05-16,799
+ORD124,USB-C Charger,Processing,2025-05-18,599
+ORD125,Noise Cancelling Headphones,Delivered,2025-05-10,2999
+ORD126,Bluetooth Speaker,Cancelled,,1499
+ORD127,Smartwatch,Out for Delivery,2025-05-13,3999
+ORD128,Keyboard,Returned,,999
+ORD129,Phone Case,Pending,2025-05-20,299
+ORD130,Laptop Stand,Delivered,2025-05-11,1299
